@@ -48,13 +48,6 @@ body {
     }
 }
 
-/* @media screen and (max-width: 600px) {
-    .logo p {
-        position: absolute;
-        visibility: hidden;
-    }
-} */
-
 .logo img {
     max-height: 6rem;
     flex-shrink: 1;
@@ -75,6 +68,7 @@ body {
     justify-content: center;
     font-size: max(1.2rem, 1.3vw);
     background-color: rgb(248, 248, 248);
+    overflow: auto;
 }
 
 .above-text > p + p {
