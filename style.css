@@ -137,6 +137,7 @@ form button {
     background-color: var(--theme-green);
     border: 1px solid var(--theme-green);
     font-weight: bold;
+    font-size: max(0.9rem, 1vw)
 }
 
 form button:hover {
