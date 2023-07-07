@@ -15,12 +15,11 @@ passwordFields.forEach(passwordFiled => {
     passwordFiled.addEventListener('input', e => {
         if (password.value !== passwordConfirmation.value) {
             passwordFields.forEach(i => i.classList.add('error'))
-            PasswordError.textContent = '* Passwords do not match';
-            
+            PasswordError.textContent = '* Passwords do not match';     
         }
-        else {passwordFields.forEach(i => i.classList.remove('error'))
+        else {
+            passwordFields.forEach(i => i.classList.remove('error'))
             PasswordError.textContent = '';
-            console.log('nigger')
         }
     })
 })
