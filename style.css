@@ -172,3 +172,16 @@ form + p > a {
     color: var(--theme-green);
     padding-bottom: 2rem;
 }
+
+.form-control .error {
+    border: 1px solid red;
+}
+
+.form-control .error:focus {
+    border: 1px solid red;
+}
+
+#pwd + span {
+    font-size: calc(0.6rem + 0.1vw);
+    color: red;
+}
